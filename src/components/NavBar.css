@@ -1,0 +1,13 @@
+/* Custom styling for the toggle switch */
+.custom-switch .custom-control-input:checked~.custom-control-label::before {
+    background-color: #6cb2eb;
+  }
+  
+  .custom-switch .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem rgba(108, 178, 235, 0.25);
+  }
+  
+  .custom-switch .custom-control-label::after {
+    background-color: #f8f9fa;
+  }
+  
